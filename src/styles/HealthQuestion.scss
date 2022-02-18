@@ -1,0 +1,91 @@
+.healthQuestion__section {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+
+.healthQuestion__container {
+  width: 100%;
+}
+
+.healthQuestion__titleContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.healthQuestion__title {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.healthQuestion__border {
+  border-bottom: 2px solid #d34450;
+  width: 22%;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.healthQuestion__cardsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.healthQuestion__card {
+  height: 380px;
+  width: 280px;
+  margin: 15px;
+  border-radius: 10px; /* 5px rounded corners */
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px 5px;
+}
+
+.healthQuestion__test {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.healthQuestion__cardImage {
+  margin: 30px 0;
+}
+
+.healthQuestion__cardTextContainer {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.healthQuestion__cardTitle {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.healthQuestion__cardText {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(22, 22, 22);
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.healthQuestion__divider {
+  width: 90%;
+  height: 1px;
+  background-color: #b8cbd5;
+  margin: 70px auto 0 auto;
+}

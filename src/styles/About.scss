@@ -1,0 +1,32 @@
+.about__section {
+  height: 60vh;
+  width: 100%;
+  background-color: #d34450;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about__paraInfo {
+  color: #fff;
+  font-size: 23px;
+  line-height: 41.4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  width: 90%;
+  margin-top: -15px;
+}
+
+.about__readMoreBtn {
+  color: #fff;
+  background-color: #d34450;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
